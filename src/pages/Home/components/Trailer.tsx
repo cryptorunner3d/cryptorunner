@@ -71,11 +71,12 @@ const Trailer: React.FC<Props> = () => {
           <b>CryptoRunner Trailer Video</b>
         </Typography>
         <div className="center">
-          <video
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yHOczvb8XQU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+          {/* <video
             className={classes.video}
             controls
             src={"http://techslides.com/demos/sample-videos/small.mp4"}
-          />
+          /> */}
         </div>
         <img alt="" src={CloudsPng} className={classes.clouds} />
       </Container>
