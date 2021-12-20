@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@mui/styles";
 import { IconButton, Theme } from "@mui/material";
 import TwitterPng from "src/assets/icons/twitter.png";
-import DiscordPng from "src/assets/icons/discord.png";
+import MediumPng from "src/assets/icons/medium.png";
 import TelegramPng from "src/assets/icons/telegram.png";
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -22,13 +22,13 @@ const Social: React.FC<Props> = () => {
   return (
     <div className={classes.root}>
       <div>
-        <IconButton href="/twitter">
+        <IconButton href="https://twitter.com/cryptorunnerbsc" target="_blank">
           <img src={TwitterPng} alt="twitter" width="50px" />
         </IconButton>
-        <IconButton href="/discord">
-          <img src={DiscordPng} alt="discord" width="50px" />
+        <IconButton href="https://medium.com/@cryptorunner" target="_blank">
+          <img src={MediumPng} alt="discord" width="50px" />
         </IconButton>
-        <IconButton href="/telegram">
+        <IconButton href="https://t.me/CryptoRunners" target="_blank">
           <img src={TelegramPng} alt="telegram" width="50px" />
         </IconButton>
       </div>
