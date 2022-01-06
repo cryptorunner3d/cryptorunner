@@ -26,7 +26,7 @@ const data: TeamMemberProps[] = [
   {
     img: T2,
     title: "CR GARY",
-    text: "BLOCKCHAIN ENGINEER",
+    text: "GAME DEVELOPER",
   },
   {
     img: T3,
@@ -41,12 +41,12 @@ const data: TeamMemberProps[] = [
   {
     img: T5,
     title: "CR JEFF",
-    text: "GAME DEVELOPER",
+    text: "CREATIVE DESIGNER",
   },
   {
     img: T6,
     title: "CR COLE",
-    text: "GAME DEVELOPER",
+    text: "LEAD MARKETER",
   },
 ];
 

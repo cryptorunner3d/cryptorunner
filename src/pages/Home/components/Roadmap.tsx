@@ -48,7 +48,7 @@ const allRoadmaps: RoadmapPointProps[] = [
   {
     title: "Q2 2022",
     points: [
-      "Game Development Comming soon.."
+      "Game Development Coming soon.."
     ],
   },
   // {
