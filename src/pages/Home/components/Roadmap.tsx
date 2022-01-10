@@ -37,38 +37,50 @@ interface Props { }
 
 const allRoadmaps: RoadmapPointProps[] = [
   {
-    title: "Q4 2021",
+    title: "Phase 1",
     points: [
-      "Core Team Gathering",
-      "Research",
-      "Token Launch",
-      "Marketing"
+      "Characters design",
+      "Website and socials",
+      "Audit Contract",
+      "Release whitepaper",
+      "CryptoRunner 2D testnet",
+      "NFT presale",
+      "IDO"
     ],
   },
   {
-    title: "Q2 2022",
+    title: "Phase 2",
     points: [
-      "Game Development Coming soon.."
+      "Launch on PancakeSwap",
+      "Coingecko, Coinmarketcap Listing",
+      "Staking Mechanism",
+      "2D game release",
+      "Public Launch NFT Marketplace",
     ],
   },
-  // {
-  //   title: "Q3 2021",
-  //   points: [
-  //     "Paper Writing",
-  //     "Gameplay Design",
-  //     "Game Architectural",
-  //     "Website design",
-  //   ],
-  // },
-  // {
-  //   title: "Q4 2021",
-  //   points: [
-  //     "Paper Writing",
-  //     "Gameplay Design",
-  //     "Game Architectural",
-  //     "Website design",
-  //   ],
-  // },
+  {
+    title: "Phase 3",
+    points: [
+      "Certik audit",
+      "Influencer Marketing",
+      "CEX Listing",
+      "Team Expansion",
+      "Game studio / partnerships"
+    ],
+  },
+  {
+    title: "Phase 4",
+    points: [
+      "3D game soft launch",
+      "Full game release",
+      "More exchanges",
+      "Full Metaverse integration",
+      "Android/IOS version",
+      "Marketing in local Communities",
+      "Web and android Update",
+      "Global tournament"
+    ],
+  },
 ];
 
 const Roadmap: React.FC<Props> = () => {
