@@ -59,7 +59,7 @@ const Trailer: React.FC<Props> = () => {
           <Button variant="contained" color="secondary">
             Play
           </Button>
-          <Button variant="contained">Whitepaper</Button>
+          <Button variant="contained" href="https://docs.cryptorunner.io" target="_blank">Whitepaper</Button>
         </div>
         <Typography
           variant="h4"

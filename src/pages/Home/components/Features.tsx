@@ -70,7 +70,7 @@ const Features: React.FC<Props> = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="features">
       <Container maxWidth="lg">
         <Grid container spacing={3} className={classes.grid}>
           {allFeatures.map((feature) => (

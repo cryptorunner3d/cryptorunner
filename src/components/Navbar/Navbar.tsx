@@ -43,10 +43,9 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
 }));
 
-
 const Navbar: React.FC = () => {
   const classes = useStyles();
-  const [open, setMenuOpen] = useState(false)
+  const [open, setMenuOpen] = useState(false);
 
   return (
     <Container maxWidth="lg">
@@ -57,18 +56,20 @@ const Navbar: React.FC = () => {
         <Hidden mdDown>
           <div className={classes.linksContainer}>
             <NavLink
-              to="/team"
+              exact
+              to="/#teamsection"
               className={clsx(classes.link, "styleFont")}
-              activeClassName={classes.activeLink}
+              // activeClassName={classes.activeLink}
             >
               Team
             </NavLink>
             <NavLink
-              to="/explore"
+              exact
+              to="/#features"
               className={clsx(classes.link, "styleFont")}
-              activeClassName={classes.activeLink}
+              // activeClassName={classes.activeLink}
             >
-              Explore
+              Features
             </NavLink>
             <NavLink
               to="/presale"
@@ -90,7 +91,7 @@ const Navbar: React.FC = () => {
             color="secondary"
             style={{ maxWidth: 300 }}
           >
-            Login
+            Launch app
           </Button>
         </Hidden>
         <Hidden mdUp>
@@ -110,13 +111,13 @@ const Navbar: React.FC = () => {
                 color="secondary"
                 style={{ maxWidth: 300 }}
               >
-                Login
+                Launch app
               </Button>
             </ListItem>
           </List>
         </div>
       </Drawer>
-    </Container >
+    </Container>
   );
 };
 

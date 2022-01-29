@@ -54,7 +54,7 @@ const Team: React.FC<Props> = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="teamsection">
       <Container maxWidth="lg">
         <Typography
           className="styleFont"
