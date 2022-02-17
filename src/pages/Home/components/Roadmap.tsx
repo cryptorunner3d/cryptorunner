@@ -39,6 +39,7 @@ const allRoadmaps: RoadmapPointProps[] = [
   {
     title: "Phase 1",
     points: [
+      // {item1: "Characters design", status: "active"}
       "Characters design",
       "Website and socials",
       "Audit Contract",

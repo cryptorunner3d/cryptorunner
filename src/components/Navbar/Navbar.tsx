@@ -71,13 +71,17 @@ const Navbar: React.FC = () => {
             >
               Features
             </NavLink>
-            <NavLink
-              to="/presale"
+            <a
+              href="https://www.pinksale.finance/#/launchpad/0x8aEa712C260C7aa098D93a6Bee028Cb526749B45?chain=BSC"
+              target="_blank"
               className={clsx(classes.link, "styleFont")}
-              activeClassName={classes.activeLink}
             >
               Presale
-            </NavLink>
+            </a>
+            {/* <NavLink
+            >
+              Presale
+            </NavLink> */}
             <NavLink
               to="/farm"
               className={clsx(classes.link, "styleFont")}
@@ -87,6 +91,8 @@ const Navbar: React.FC = () => {
             </NavLink>
           </div>
           <Button
+            href="https://app.cryptorunner.io"
+            target="_blank"
             variant="contained"
             color="secondary"
             style={{ maxWidth: 300 }}
