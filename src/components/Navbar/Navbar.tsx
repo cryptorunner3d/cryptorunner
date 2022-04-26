@@ -89,6 +89,13 @@ const Navbar: React.FC = () => {
             >
               NFT Farm
             </NavLink>
+            <a
+              href="https://claimfrontend.web.app"
+              target="_blank"
+              className={clsx(classes.link, "styleFont")}
+            >
+              Claim
+            </a>
           </div>
           <Button
             href="https://app.cryptorunner.io"
